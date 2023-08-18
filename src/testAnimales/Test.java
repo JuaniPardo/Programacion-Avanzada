@@ -50,7 +50,7 @@ public class Test {
     // * METODOS ESTATICOS PARA MANEJAR LOS MENUS *
     // ********************************************
     private static void displayMenu(String title, String exitOption) {
-        System.out.println("\n@@@@@@@@@@@@@@@@@@@@@@@@\n");
+        System.out.println("\n@@@@@@@@@@@@@@@@@@@@@@@@@\n");
         System.out.println(title);
         System.out.println(exitOption);
         System.out.print("Opción: ");
