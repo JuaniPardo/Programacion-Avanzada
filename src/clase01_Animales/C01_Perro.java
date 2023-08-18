@@ -1,7 +1,7 @@
 package clase01_Animales;
 
-public class Perro extends Canino {
-    public Perro(String tipoAnimal, String tipoComida, String localizcion, String tamanio) {
+public class C01_Perro extends C01_Canino {
+    public C01_Perro(String tipoAnimal, String tipoComida, String localizcion, String tamanio) {
         super(tipoAnimal, tipoComida, localizcion, tamanio);
     }
 

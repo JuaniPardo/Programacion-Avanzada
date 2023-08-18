@@ -6,12 +6,12 @@ import clase01_Animales.*;
 
 public class Test {
     public static void main(String[] args) {
-        Animal[] animales = {
-                new Tigre("Tigre", "Carne", "Selva", "Grande"),
-                new Leon("Leon", "carne", "Selva", "grande"),
-                new Gato("Gato", "Croquetas", "Hogar", "chico"),
-                new Lobo("Lobo", "carne", "bosque", "mediano"),
-                new Perro("Perro", "Croquetas", "Hogar", "variado")
+        C01_Animal[] animales = {
+                new C01_Tigre("Tigre", "Carne", "Selva", "Grande"),
+                new C01_Leon("Leon", "carne", "Selva", "grande"),
+                new C01_Gato("Gato", "Croquetas", "Hogar", "chico"),
+                new C01_Lobo("Lobo", "carne", "bosque", "mediano"),
+                new C01_Perro("Perro", "Croquetas", "Hogar", "variado")
         };
 
         Scanner scanner = new Scanner(System.in);
@@ -56,7 +56,7 @@ public class Test {
         System.out.print("Opción: ");
     }
 
-    private static void displayAnimalOptions(Animal[] animales) {
+    private static void displayAnimalOptions(C01_Animal[] animales) {
         System.out.println("\n##########################\n");
         for (int i = 0; i < animales.length; i++) {
             System.out.println((i + 1) + ". Menu " + animales[i].getClass().getSimpleName());
@@ -65,20 +65,20 @@ public class Test {
         System.out.print("Elija una opción: ");
     }
 
-    private static void handleAnimalMenu(Animal animal, Scanner scanner) {
+    private static void handleAnimalMenu(C01_Animal c01Animal, Scanner scanner) {
         System.out.println("\n##########################\n");
-        System.out.println("Has elegido el Menú " + animal.getClass().getSimpleName());
+        System.out.println("Has elegido el Menú " + c01Animal.getClass().getSimpleName());
         System.out.println("==========================");
-        System.out.println(animal);
-        animal.comer();
-        animal.comer("Sanguchitos de miga");
-        animal.hacerRuido();
+        System.out.println(c01Animal);
+        c01Animal.comer();
+        c01Animal.comer("Sanguchitos de miga");
+        c01Animal.hacerRuido();
 
-        if (animal instanceof Gato) {
-            ((Gato) animal).vacunar();
-        } else if (animal instanceof Perro) {
-            ((Perro) animal).sacarPaseo();
-            ((Perro) animal).vacunar();
+        if (c01Animal instanceof C01_Gato) {
+            ((C01_Gato) c01Animal).vacunar();
+        } else if (c01Animal instanceof C01_Perro) {
+            ((C01_Perro) c01Animal).sacarPaseo();
+            ((C01_Perro) c01Animal).vacunar();
         }
     }
 }
