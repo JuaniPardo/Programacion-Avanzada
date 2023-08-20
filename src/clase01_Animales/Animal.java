@@ -1,6 +1,6 @@
 package clase01_Animales;
 
-public class C01_Animal {
+public class Animal {
 
     protected String tipoAnimal;
     protected String tipoComida;
@@ -8,7 +8,7 @@ public class C01_Animal {
     protected String tamanio;
 
 
-    public C01_Animal(String tipoAnimal, String tipoComida, String localizcion, String tamanio) {
+    public Animal(String tipoAnimal, String tipoComida, String localizcion, String tamanio) {
         this.tipoAnimal = tipoAnimal;
         this.tipoComida = tipoComida;
         this.localizacion = localizcion;

@@ -1,21 +1,22 @@
 package clase01_Animales;
 
-public class C01_Tigre extends C01_Felino {
-    public C01_Tigre(String tipoAnimal, String tipoComida, String localizcion, String tamanio) {
+public class Leon extends Felino {
+    public Leon(String tipoAnimal, String tipoComida, String localizcion, String tamanio) {
         super(tipoAnimal, tipoComida, localizcion, tamanio);
     }
 
     public void comer() {
-        System.out.println("(TIGRE) El " + this.getClass().getSimpleName() + " come " + tipoComida);
+        System.out.println("(LEON) El " + this.getClass().getSimpleName() + " come "  + tipoComida);
     }
 
     public void hacerRuido() {
-        System.out.println("los tigres rugen");
+        System.out.println("los leones rugen");
+
     }
 
     @Override
     public String toString() {
-        return "Tigre{" +
+        return "Leon{" +
                 "tipoAnimal='" + tipoAnimal + '\'' +
                 ", tipoComida='" + tipoComida + '\'' +
                 ", localizcion='" + localizacion + '\'' +
