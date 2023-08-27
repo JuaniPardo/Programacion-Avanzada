@@ -1,6 +1,6 @@
 package clase02_ProyBancario;
 
-public class Cuenta {
+abstract public class Cuenta {
     protected double balance;
 
     //Constructor sobrecargado

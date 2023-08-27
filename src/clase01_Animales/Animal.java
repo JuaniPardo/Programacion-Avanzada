@@ -1,6 +1,6 @@
 package clase01_Animales;
 
-public class Animal {
+abstract public class Animal {
 
     protected String tipoAnimal;
     protected String tipoComida;
@@ -15,9 +15,7 @@ public class Animal {
         this.tamanio = tamanio;
     }
 
-    public void hacerRuido() {
-        System.out.println("Los animales hacen ruido");
-    }
+    abstract public void hacerRuido();
 
     public void comer() {
         System.out.println("El " + this.getClass().getSimpleName() + " come " + tipoComida);

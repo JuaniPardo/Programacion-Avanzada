@@ -9,8 +9,7 @@ public class CuentaCorriente extends Cuenta{
     }
 
     public CuentaCorriente(double iniBalance) {
-        super(iniBalance);
-        descubierto = 0.0;
+        this(iniBalance,0.0); //!Llamo al constructor sobrecargado
     }
 
     @Override
