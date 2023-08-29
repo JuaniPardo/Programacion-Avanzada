@@ -15,6 +15,7 @@ A continuación, se presenta una lista de los paquetes y su contenido:
 <details>
 <summary>Clase 1 - Animales (Herencia)</summary>
 
+
 - Animal.java
 - Canino.java
 - Felino.java
@@ -23,6 +24,7 @@ A continuación, se presenta una lista de los paquetes y su contenido:
 - Gato.java
 - Lobo.java
 - Perro.java
+- C1Test.java
 
 </details>
 
@@ -34,21 +36,34 @@ A continuación, se presenta una lista de los paquetes y su contenido:
 - Cuenta.java
 - CajaAhorro.java
 - CuentaCorriente.java
+- C2Test.java
 
 </details>
 
-...
+<details>
+<summary>Clase 3 - Otro Proy. Bancario</summary>
+
+- CuentaAhorro.java
+- CuentaCorriente.java
+- Titular.java
+- C3Test.java
+
+</details>
 
 <details>
-<summary>zzzClaseTest</summary>
+<summary>Clase 4 - Otro Proy. Bancario Refactorizado</summary>
 
-- Test.java
+- Cuenta.java
+- CuentaAhorro.java
+- CuentaCorriente.java
+- Titular.java
+- C3TestRef.java
 
 </details>
 
 ## ▶️ Ejecución
 
-...
+Cada clase es un paquete distinto y tiene su propio main
 
 ## ✨ Contribuciones
 
