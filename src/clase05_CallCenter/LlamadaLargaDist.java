@@ -1,7 +1,7 @@
 package clase05_CallCenter;
 
 public class LlamadaLargaDist extends Llamada{
-    private int franja;
+    protected int franja;
 
     public LlamadaLargaDist(String origen, String destino, int duracion, int franja) {
         super(origen, destino, duracion);
