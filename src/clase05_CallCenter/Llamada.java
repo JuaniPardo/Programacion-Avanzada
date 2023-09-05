@@ -14,6 +14,6 @@ abstract public class Llamada {
     abstract public double costo();
 
     public String toString() {
-        return String.format("origen = %s destino = %s duracion = %d", origen, destino, duracion);
+        return String.format("\u001B[34m├> \u001B[0morigen   = %s \n\u001B[34m  ├> \u001B[0mdestino  = %s \n\u001B[34m  ├> \u001B[0mduracion = %d", origen, destino, duracion);
     }
 }

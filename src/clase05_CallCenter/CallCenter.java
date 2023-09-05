@@ -50,12 +50,10 @@ public class CallCenter {
                 }
             }
         }
-        blue();
         System.out.println("Costo de usuario: " + usuario);
         thinLine();
-        reset();
         for (int i = 0; i < 4; i++) {
-            System.out.print(tiposLlamada[i] + costoUsuario[i] + " - ");
+            System.out.print(tiposLlamada[i] + costoUsuario[i] + "\t\t");
             green();
             printBars(porcentaje(total, costoUsuario[i]));
             reset();

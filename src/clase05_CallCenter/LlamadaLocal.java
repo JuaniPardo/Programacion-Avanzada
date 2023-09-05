@@ -11,6 +11,6 @@ public class LlamadaLocal extends Llamada{
 
     @Override
     public String toString() {
-        return String.format("Local %s costo = %.2f", super.toString(), this.costo());
+        return String.format("\u001B[34mLocal \n  %s \n\u001B[34m  └> \u001B[0mcosto \t  = $%.2f", super.toString(), this.costo());
     }
 }

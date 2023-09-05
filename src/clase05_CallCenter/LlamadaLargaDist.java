@@ -24,6 +24,6 @@ public class LlamadaLargaDist extends Llamada{
 
     @Override
     public String toString() {
-        return String.format("Larga %s franja = %d costo = %.2f", super.toString(), franja, this.costo());
+        return String.format("\u001B[34mLarga \n  %s \n\u001B[34m  ├> \u001B[0mfranja   = %d \n\u001B[34m  └> \u001B[0mcosto \t  = $%.2f", super.toString(), franja, this.costo());
     }
 }
