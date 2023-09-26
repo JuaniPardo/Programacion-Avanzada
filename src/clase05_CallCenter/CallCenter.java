@@ -1,5 +1,6 @@
 package clase05_CallCenter;
-import static zConsola.Consola.*;
+import static miPaquete.Consola.*;
+import static miPaquete.MyMath.*;
 
 import java.util.ArrayList;
 

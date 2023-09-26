@@ -1,5 +1,5 @@
 package clase05_CallCenter;
-import static zConsola.Consola.*;
+import static miPaquete.Consola.*;
 
 public class Test {
     public static void main(String[] args) {

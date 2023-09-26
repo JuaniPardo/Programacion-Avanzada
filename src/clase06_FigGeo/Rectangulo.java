@@ -19,6 +19,7 @@ public class Rectangulo extends FiguraGeometrica{
         return base * altura;
     }
 
+
 //    @Override
 //    public String toString(){
 //        return "Rectangulo de base " + base + " y altura " + altura;

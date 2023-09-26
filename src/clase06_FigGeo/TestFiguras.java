@@ -1,6 +1,5 @@
 package clase06_FigGeo;
-
-import static zConsola.Consola.*;
+import static miPaquete.Consola.*;
 
 public class TestFiguras {
     public static void main(String[] args) {
@@ -14,10 +13,10 @@ public class TestFiguras {
         for (FiguraGeometrica figura : figuras) {
             System.out.println(figura);
         }
-        thinLine();
-        Rectangulo rectangulo = (Rectangulo) figuras[1];
-        System.out.println("El perimetro del rectangulo es " + rectangulo.perimetro());
+        red();
+        thickLine();
+        reset();
+        System.out.printf("El área promedio es: %.2f",FiguraGeometrica.areaPromedio(figuras));
 
-//        System.out.printf("El perimetro del rectangulo es %.2f\n", (Rectangulo) figuras[1].perimetro());
     }
 }
